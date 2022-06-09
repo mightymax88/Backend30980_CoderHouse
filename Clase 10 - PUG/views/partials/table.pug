@@ -1,0 +1,12 @@
+table(width='100%', cellspacing='0', cellpadding='0', border='0', bgcolor='#F2F2F2')
+        thead
+            tr
+                th Item
+                th Price
+                th Image
+        tbody
+            each task in productos
+                tr
+                    td #{task.title}
+                    td #{task.price}
+                    td: img(src=task.thumbnail alt="Image" width="50px")

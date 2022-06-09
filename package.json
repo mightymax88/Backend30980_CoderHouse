@@ -1,0 +1,23 @@
+{
+  "name": "backend30980_coderhouse",
+  "version": "1.0.0",
+  "description": "Different files to present during the course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightymax88/Backend30980_CoderHouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mightymax88/Backend30980_CoderHouse/issues"
+  },
+  "homepage": "https://github.com/mightymax88/Backend30980_CoderHouse#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "pug": "^3.0.2"
+  }
+}

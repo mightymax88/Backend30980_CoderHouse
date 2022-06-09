@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/header.ejs') %>
+</head>
+<body>
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <button type="submit" formmethod="GET">Cambiar</button>
+        </li>
+    </ul>
+    <div class="container mt-5 bg-light rounded">
+        <%- include('../partials/form.ejs') %> 
+        <%- include('../partials/table.ejs') %> 
+    </div>
+    <%- include('../partials/bootstrapCDN.ejs') %>
+</body>
+<footer>
+    <%- include('../partials/footer'); %>
+</footer>
+</html>

@@ -1,0 +1,10 @@
+h2 Ingrese producto:
+form(action='/productos', method='POST')
+    p
+        | Title: 
+        input(type='text', name='title', value='')
+        |          Price: 
+        input(type='text', name='price', value='')
+        |          URL: 
+        input(type='text', name='thumbnail', value='')
+    input(type='submit', value='Submit')
