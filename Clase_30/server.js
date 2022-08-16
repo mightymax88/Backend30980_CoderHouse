@@ -17,7 +17,7 @@ const app = express();
 const server = http.Server(app);
 const io = new Socket(server);
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.argv[2] || 8080;
 import passport from "passport";
 import { Strategy as FacebookStrategy } from "passport-facebook";
 
