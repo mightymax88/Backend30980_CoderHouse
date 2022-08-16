@@ -38,3 +38,5 @@ $ pm2 stop/restart/delete server.js
 Para visualizar los datos de los servidores en el navegador:
 
 ![ejemplo2](captura2.png "Example 2")
+![ejemplo2](captura3.png "Example 3")
+![ejemplo2](captura4.png "Example 4")
