@@ -27,7 +27,7 @@ Listar todas las aplicaciones:
 $ pm2 list
 ```
 
-![ejemplo]('Clase_30/Captura de Pantalla 2022-08-16 a la(s) 11.51.11.png')
+![ejemplo](captura1.png "Example 1")
 
 Para detener, reiniciar o eliminar:
 ```
@@ -37,4 +37,4 @@ $ pm2 stop/restart/delete server.js
 ## Datos:
 Para visualizar los datos de los servidores en el navegador:
 
-![ejemplo2]('Clase_30/Captura de Pantalla 2022-08-16 a la(s) 12.13.04.png')
+![ejemplo2](captura2.png "Example 2")
