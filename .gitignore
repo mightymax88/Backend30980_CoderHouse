@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+!Clase_32/logs
+!Clase_32/logs/error.log
+!Clase_32/logs/warn.log
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -102,3 +105,8 @@ dist
 
 # TernJS port file
 .tern-port
+Clase_20/vue-project
+Clase_20/frontend
+*.wt
+*.turtle
+*.lock
