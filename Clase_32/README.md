@@ -10,8 +10,8 @@ Luego implementar loggeuo (con alguna librería) que registre:
 
 Considerar:
 - Loggear todos los niveles a consola
-- Registrar sólo los logs de warning en un archivo llamado warn.log [here](/logs/warn.log)
-- Enviar los logs de error a un archivo llamado error.log [here](/logs/error.log)
+- Registrar sólo los logs de warning en un archivo llamado warn.log [here](logs/warn.log)
+- Enviar los logs de error a un archivo llamado error.log [here](logs/error.log)
 
 ## Análisis completo de performance
 Vamos a trabajar sobre la ruta '/info' en modo fork, agregando o extrayendo un console.log de la información colecata antes de devolverla al Cliente. Además desactivaremos el child_process de la ruta '/randoms'.
@@ -19,7 +19,7 @@ Para ambas condiciones (con o sin console.log) en la ruta '/info' OBTENER:
 <br>
 1- El perfilamiento del servidor con --prof de node.js. [here](reports/)
 <br>
-2- El perfilamiento del servidor con node.js --inspect. (reports/)
+2- El perfilamiento del servidor con node.js --inspect. [here](reports/)
 <br>
 3- El diagrama de flama con 0x
 <br>
