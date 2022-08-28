@@ -49,3 +49,5 @@ $ heroku git:remote -a mightyapp
 ![ejemplo2](media/heroku01.png "Example 2")
 <br>
 ![ejemplo3](media/heroku02.png "Example 3")
+<br>
+![ejemplo3](media/heroku03.png "Example 4")
