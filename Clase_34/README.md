@@ -44,4 +44,7 @@ For existing repositories, simply add the heroku remote
 ```
 $ heroku git:remote -a mightyapp
 ```
+<br>
 
+![ejemplo2](media/heroku01.png "Example 2")
+<br>
