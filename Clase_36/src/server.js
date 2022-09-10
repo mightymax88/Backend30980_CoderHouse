@@ -23,7 +23,7 @@ app.use(compression());
 app.set('views', './src/views');
 app.set('view engine', 'hbs');
 
-app.engine('hbs', engine({
+app.engine('hbs', handlebars.engine({
     extname: '.hbs',
     defaultLayout: 'index.hbs',
     layoutsDir: __dirname + '/views/layouts',
@@ -57,7 +57,7 @@ app.use('/test', otherRouter);
 
 app.all("*", (req, res) => {
     res.status(404).json({"error": "ruta no existente"})
-  });
+});
 
 /* --------------- Leer el puerto por consola o setear default -------------- */
 
@@ -72,9 +72,9 @@ const options = {
 
 app._router.stack.forEach(function (r) {
     if (r.route && r.route.path) {
-      console.log(r.route.path)
+        console.log(r.route.path)
     }
-  });
+});
 
 const { PORT } = minimist(process.argv.slice(2), options);
 

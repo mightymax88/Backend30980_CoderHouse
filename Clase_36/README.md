@@ -6,6 +6,26 @@ base de datos las credenciales y el resto de los datos ingresados al momento del
 - Un formulario post de registro y uno de login. De modo que, luego de concretarse cualquiera de estas operaciones en forma exitosa, el usuario accederá a su home.
 - Envío de un email y un mensaje de whatsapp al administrador desde el servidor, a un número de contacto almacenado en una constante global.
 
+## Etapas:
+
+### Creación cuenta de mail de testing (ethereal.email):
+
+Se crea una cuenta para testing:<br>
+<img src="../Clase_36/imagesreadme/ethereal.png" alt="Nuevo email test"/>
+<br>
+Y se procede a su configuración:<br>
+<br>
+```
+const transporter = nodemailer.createTransport({
+    host: 'smtp.ethereal.email',
+    port: 587,
+    auth: {
+        user: 'syble.gislason75@ethereal.email',
+        pass: 'FdB377Ktt1zb1UqQfc'
+    }
+});
+```
+<br>
 
 ## Registro de usuarios y aviso por email de la operación
 

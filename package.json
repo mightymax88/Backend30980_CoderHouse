@@ -18,8 +18,31 @@
   },
   "homepage": "https://github.com/mightymax88/Backend30980_CoderHouse#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
     "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "faker": "^6.6.6",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.2.0",
+    "log4js": "^6.6.1",
+    "mongoose": "^6.5.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.8",
+    "normalizr": "^3.6.2",
+    "passport": "^0.6.0",
+    "passport-facebook": "^3.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "pino": "^8.4.2",
     "pug": "^3.0.2",
     "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0"
   }
 }
