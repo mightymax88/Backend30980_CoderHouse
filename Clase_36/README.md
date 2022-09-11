@@ -27,6 +27,19 @@ const transporter = nodemailer.createTransport({
 ```
 <br>
 
+### Configuración de Twilio:
+
+Se configura Twilio para poder enviar y recibir mensajes de WhatsApp:<br>
+
+<img src="../Clase_36/imagesreadme/twilio_setup.png" alt="Twilio setup"/>
+<br>
+
+Se envían mensajes de ejemplo:
+
+<img src="../Clase_36/imagesreadme/twilio1.PNG" alt="Twilio ejemplo 1"/>
+<br>
+
+
 ## Registro de usuarios y aviso por email de la operación
 
 - Creamos un nuevo usuario
