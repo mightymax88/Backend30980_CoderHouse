@@ -1,4 +1,5 @@
 import express from "express";
+import handlebars from "express-handlebars";
 import productRouter from './routes/product.js';
 import cartRouter from './routes/cart.js';
 import userRouter from './routes/user.js';
@@ -33,16 +34,16 @@ app.engine('hbs', handlebars.engine({
 app.use(
     session({
         store: mongoStore.create({
-            mongoUrl: process.env.MONGO_URI,
+            mongoUrl: 'mongodb://localhost:27017/ecommerce',
             options: {
                 userNewParser: true,
                 useUnifiedTopology: true,
             }
         }),
-        secret: process.env.SECRET,
+        secret: "22",
         resave: true,
         saveUninitialized: true,
-        cookie: {maxAge: 600000} //10 min.
+        // cookie: {maxAge: 600000} //10 min.
         
 }))
 

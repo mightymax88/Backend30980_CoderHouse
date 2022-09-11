@@ -67,7 +67,7 @@ const htmlNewUserTemplate = (id, date) => {
 //     }
 // }
 
-// export async function sendEmailNode(subject, htmlTemplate) {
+export async function sendEmailNode(subject, htmlTemplate) {
 try {
     // const mailOptions = NewmailOptions(
     //     subject,
@@ -78,4 +78,4 @@ try {
 } catch (error) {
     logger.error(error);
 }
-// }
+}

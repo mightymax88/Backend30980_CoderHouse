@@ -1,7 +1,7 @@
 import express from "express";
 const router = express.Router();
 import {UsuarioDao} from '../dao/UsuarioDao.js';
-import { sendGmail } from "../notifications/gmail/EmailSender.js";
+import { sendEmailNode } from "../notifications/gmail/EmailSender.js";
 import { htmlNewUserTemplate } from "../notifications/gmail/htmltemplates/NewUserCreatedTemplate.js";
 
 const userDao = new UsuarioDao();

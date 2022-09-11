@@ -34,7 +34,7 @@ Se configura Twilio para poder enviar y recibir mensajes de WhatsApp:<br>
 <img src="../Clase_36/imagesreadme/twilio_setup.png" alt="Twilio setup"/>
 <br>
 
-Se envían mensajes de ejemplo:
+Se envían mensajes de ejemplo (src/notifications/whatsapp/sendWa.js):
 
 <img src="../Clase_36/imagesreadme/twilio1.PNG" width= "250px" alt="Twilio ejemplo 1"/>
 <br>
@@ -73,4 +73,4 @@ echo "twilio.env" >> .gitignore
 
 - Recibimos mensaje de WhatsApp con la misma información.
 
-<img src="../Clase_36/imagesreadme/" alt="Imagen WhatsApp"/>
+<img src="../Clase_36/imagesreadme/twilio2.PNG" width= "250px" alt="Twilio ejemplo 2"/>
