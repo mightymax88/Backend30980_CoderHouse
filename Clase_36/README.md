@@ -69,7 +69,7 @@ echo "twilio.env" >> .gitignore
 
 - Recibimos un correo electrónico informando el UUID con el que se ha generado este usuario.
 
-<img src="../Clase_36/imagesreadme/emailExample.png" alt="Nuevo usuaro email ejemplo"/>
+<img src="../Clase_36/imagesreadme/emailExample.png" width= "550px" alt="Nuevo usuaro email ejemplo"/>
 
 - Recibimos mensaje de WhatsApp con la misma información.
 
