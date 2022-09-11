@@ -36,7 +36,7 @@ Se configura Twilio para poder enviar y recibir mensajes de WhatsApp:<br>
 
 Se envían mensajes de ejemplo:
 
-<img src="../Clase_36/imagesreadme/twilio1.PNG" alt="Twilio ejemplo 1"/>
+<img src="../Clase_36/imagesreadme/twilio1.PNG" width= "200px" alt="Twilio ejemplo 1"/>
 <br>
 
 
