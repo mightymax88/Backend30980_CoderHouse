@@ -74,6 +74,7 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
+Clase_36/src/notifications/whatsapp/twilio.env
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache

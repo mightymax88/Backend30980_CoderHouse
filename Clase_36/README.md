@@ -39,6 +39,23 @@ Se envían mensajes de ejemplo:
 <img src="../Clase_36/imagesreadme/twilio1.PNG" width= "250px" alt="Twilio ejemplo 1"/>
 <br>
 
+**IMPORTANTE:*** Es importante mantener las credenciales Account SID y Auth Token protegidas.<br>
+Para ello, se deben almacenar en variables de entorno o similar, para no ser compartidas o expuestas en GIT.
+
+#### Enviromental variables:
+Agrega las variables en un archivo twilio.env y guardalas de la siguiente manera:
+
+```
+echo "export TWILIO_ACCOUNT_SID='ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'" > twilio.env
+echo "export TWILIO_AUTH_TOKEN='your_auth_token'" >> twilio.env
+source ./twilio.env
+```
+
+Asegurando que sean ignoradas:
+
+```
+echo "twilio.env" >> .gitignore
+```
 
 ## Registro de usuarios y aviso por email de la operación
 
