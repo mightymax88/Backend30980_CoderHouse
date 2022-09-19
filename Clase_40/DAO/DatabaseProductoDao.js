@@ -25,6 +25,14 @@ class DatabaseProductoDao {
     try {
     } catch (error) {}
   }
+
+  static getInstance(){
+    if(!instance){
+      instance = new DatabaseProductoDao()
+    }
+    return instance
+  }
+
 }
 
 module.exports = DatabaseProductoDao;
