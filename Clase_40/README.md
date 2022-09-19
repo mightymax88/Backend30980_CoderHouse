@@ -9,11 +9,32 @@
 
 ### Consignas:
 
-- Modificar la capa de persistencia incorporando los conceptos de Factory, DAO y DTO.
-- Los DAOs deben presentar la misma interfaz hacia la lógica de negocio de nuestro servidor.
-- El DAO seleccionado (por un parámetro en línea de comandos como lo hicimos anteriormente) será devuelto por una Factory para que la capa de negocio opere con el.
-- Cada uno de estos casos de persistencia, deberán ser implementados usando el patrón singleton que impida crear nuevas instancias de estos mecanismos de acceso a los datos.
-- Comprobar que si llamo a la factory dos veces, con una misma opción elegida, devuelva la misma instancia.
-- Implementar el patrón Repository para la persistencia de productos y  mensajes.
+- [x] Modificar la capa de persistencia incorporando los conceptos de Factory, DAO y DTO.
+> Se incorporaron los conceptos de [DAO](Clase_40/DAO), [DTO](Clase_40/DTO) y [Factory](Clase_40/factory).
+<br>
+- [x] Los DAOs deben presentar la misma interfaz hacia la lógica de negocio de nuestro servidor.
+> Los DAO fueron actualizados, por ejemplo con [Producto](Clase_40/DAO/DatabaseProductoDao.js) bajo el concepto de persistencia.
+<br>
+- [x] El DAO seleccionado (por un parámetro en línea de comandos como lo hicimos anteriormente) será devuelto por una Factory para que la capa de negocio opere con el.
+> Se implementó la conexión con [Factory](Clase_40/database/factory.js).
+<br>
+- [x] Cada uno de estos casos de persistencia, deberán ser implementados usando el patrón singleton que impida crear nuevas instancias de estos mecanismos de acceso a los datos.
+> Implementado de acuerdo al principio de SingletonClass():
+
+```
+static getInstance(){
+    if(!instance){
+      instance = new DatabaseProductoDao()
+    }
+    return instance
+}
+```
+<br>
+- [x] Comprobar que si llamo a la factory dos veces, con una misma opción elegida, devuelva la misma instancia.
+> Confirmado.
+<br>
+- [x] Implementar el patrón Repository para la persistencia de productos y  mensajes.
+> Implementado [acá](Clase_40/repository).
+<br>
 
 :bulb: **Desarrollador:** Maximiliano Filipuzzi

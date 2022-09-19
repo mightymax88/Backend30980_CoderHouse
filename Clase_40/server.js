@@ -10,7 +10,6 @@ const passport = require('./middlewares/passport.js');
 const config = require('./config/index.js');
 const logger = require('./helpers/winston.js');
 const { twilioSms } = require('./helpers/twilio.js')
-const { graphqlHTTP } = require('express-graphql');
 const {schema, root} = require('./graphql/schema_graphql.js');
 
 /* -------------------- Rutas ---------------------- */
@@ -69,11 +68,6 @@ app.use('/user', usersRoutes);
 app.use('/info', infoRouter);
 app.use('/randoms', randomsRouter);
 app.get('/', function (req, res) { res.render('index') });
-app.use('/graphql', graphqlHTTP({
-    schema: schema,
-    rootValue: root,
-    graphiql: true
-}));
 
 /* -------------------- Web Sockets ---------------------- */
 
