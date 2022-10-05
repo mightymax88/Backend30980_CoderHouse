@@ -13,22 +13,23 @@
 
 - [x] En base al último proyecto entregable de servidor API RESTful, reformar la capa de routeo y el controlador para que los requests puedan ser realizados a través del lenguaje de query GraphQL.
 - [x] Si tuviésemos un frontend, reformarlo para soportar GraphQL y poder dialogar apropiadamente con el backend y así realizar las distintas operaciones de pedir, guardar, actualizar y borrar recursos.
-- [x] No hace falta realizar un cliente ya que utilizaremos tests para verificar el correcto funcuonamiento de las funcionalidades desarrolladas.
+- [x] Utilizar GraphQL para realizar la prueba funcional de los querys y las mutaciones.
 
+----
 
-## Testeamos nuestra API REST
+En la carpeta [graphql](src/graphql/), dentro de src se crearon todos los archivos necesarios para utilizar **GraphQL**.
 
-### Consignas:
+Para acceder a GraphiQL ingresa a
 
-- [x] Desarrollar un cliente HTTP de pruebas que utilice Axios para enviar peticiones, realizar un test de la funcionalidad hacia la API Rest de productos, verificando la correcta lectura de productos disponibles, incorporación de nuevos productos, modificación y borrado.
-> Generación de requests con **Axios** [acá](Clase_42/test/controllers/product.test.js).
-- [x] Realizar el cliente en un módulo independiente y desde un código aparte generar las peticiones correspondientes, revisando los resultados desde la base de datos y en la respuesta del servidor obtenida en el cliente HTTP.
-- [x] Luego, realizar las mismas pruebas, a través de un código de test apropiado, que utilice mocha, chai y Supertest, para probar cada uno de los métodos HTTP de la API Rest de productos.
-> Se realizaron los [otros tests](Clase_42/test/controllers/other.test.js).
-- [x] Escribir una suite de test para verificar si las respuestas a la lectura, incorporación, modificación y borrado de productos son las apropiadas. Generar un reporte con los resultados obtenidos de la salida del test.
-> Resultado [acá](Clase_42/testresults/TestResults_2022-09-28.txt).
+### `http://localhost:3031/graphql`
 
+#### Ejemplo de una mutación (crear un nuevo producto)
 
+<img src="/media/newProductGraphQl.png" width="900px" alt="Nuevo producto con graphql"/>
+
+#### Ejemplo de una query
+
+<img src="/media/allProductsGraphQl.png" alt="Todos los productos con graphql"/>
 
 <br>
 :bulb: **Desarrollador:** Maximiliano Filipuzzi
