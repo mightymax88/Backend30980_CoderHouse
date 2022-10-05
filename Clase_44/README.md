@@ -19,7 +19,7 @@
 
 En la carpeta [graphql](src/graphql/), dentro de src se crearon todos los archivos necesarios para utilizar **GraphQL**.
 
-Para acceder a GraphiQL ingresa a
+Para acceder a GraphQL ingresa a
 
 ### `http://localhost:3031/graphql`
 
