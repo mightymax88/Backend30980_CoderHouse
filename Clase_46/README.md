@@ -13,7 +13,7 @@
 - [x] Elegir uno de los frameworks vistos en clase y trasladar a esta nueva plataforma el último proyecto entregable (con GraphQL) o al anterior (sin GraphQL).
 > Se eligió [Koajs](https://github.com/koajs/koa).
 <br>
-![logo_koa](logo.png)
+![logo_koa](media/logo.png =x250)
 <br>
 
 *Verificar el correcto funcionamiento del servidor a nivel de sus rutas, vistas, lógica de negocio y persistencia.*
