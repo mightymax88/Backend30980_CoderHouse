@@ -8,7 +8,10 @@
 
 ## Servidor en Deno
 
-Servidor simple en Deno con persistencia de datos en MongoDB.
+### Consignas
+
+- [x] Crear un servidor que utilice el módulo hhtp servest y genere la vista con React render.
+- [x] Configurar denon para que, ante un cambio de código, el servidor se reinicie automáticamente. El servidor presentará en su ruta raíz un formulario de ingreso de un color, que será enviado al mismo por método post. Dicho color será incorporado a un array de colores presistido en memoria. Por debajo del formulario se deberán presentar los colores recibidos en una lista desordenada (ul) utilizando el mismo color para la letra en cada caso. El color de fono de la vista será negro.
 
 
 Para iniciar scripts.json (cuando estes creando un nuevo proyecto):
