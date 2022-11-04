@@ -5,11 +5,10 @@ Proyecto final del curso de backend de Coderhouse.
 
 ## ⭐ Acerca del proyecto
 
----
 
 Proyecto backend donde se implementa un API e-commerce para poder vender productos.
 <br>
-Herramientas utilizadas durante el cursado:
+Herramientas utilizadas durante el cursado: <br>
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
@@ -29,7 +28,6 @@ Herramientas utilizadas durante el cursado:
 
 ## 📝 Descripción
 
----
 
 - API para manejar productos.
 - API para manejar usuarios.
@@ -53,7 +51,6 @@ Herramientas utilizadas durante el cursado:
 
 ## 📦 Estructura de carpetas
 
----
 
 ```
 ├── build
