@@ -87,4 +87,12 @@ Herramientas utilizadas durante el cursado: <br>
 
 ```
 
+## ⚛️ Implementación en Heroku:
+
+Confirmación:
+
+![Imagen](./heroku_info.png)
+<br>
+Se puede encontrar en el siguiente [link](https://backend-final-project-max.herokuapp.com/).
+
 <br>
